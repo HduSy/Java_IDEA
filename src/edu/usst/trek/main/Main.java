@@ -1,4 +1,8 @@
+package edu.usst.trek.main;
+
+import edu.usst.trek.stu.Stu;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by Usst_Yao.
@@ -13,10 +17,19 @@ public class Main {
     public static final int INITIALSIZE = 10;
     private static ArrayList list;
     public static void main(String[] args) {
-        System.out.println("中文不乱吗");
+        for (int i = 0; i < 30; i++) {
+            System.out.println("中文不乱码");
+        }
         show();
         System.out.println(stu.getUsrname());
         System.out.println(stu.getPassword());
+        HashMap<String,String> person = new HashMap<>();
+        person.put("id","14032122");
+        person.put("major","computer science");
+        person.put("status","single");
+        person.put("age","23");
+        person.get("age");
+        person.remove("age");
     }
     public static void show() {
         list = new ArrayList();
@@ -42,7 +55,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-        System.out.println("Main.show");
+        System.out.println("edu.usst.trek.main.Main.show");
     }
 }
 

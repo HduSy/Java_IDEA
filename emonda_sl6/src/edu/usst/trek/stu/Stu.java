@@ -1,3 +1,5 @@
+package edu.usst.trek.stu;
+
 /**
  * Created by Usst_Yao.
  * Author: Usst_Yao
