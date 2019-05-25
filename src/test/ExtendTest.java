@@ -9,15 +9,14 @@ class Person {
         System.out.println("Person的无参构造函数");
     }
 
-//	Person(String str) {
-//		name = str;
-//		System.out.println("Person的带姓名参数构造函数");
-//	}
+	Person(String str) {
+		name = str;
+		System.out.println("Person的带姓名参数构造函数");
+	}
 
     Person(String str, int a) {
-//		this(str);
-//		System.out.println("this调用同一个类下重载的构造器方法，必须写在第一行");
-        name = str;
+		this(str);
+		System.out.println("this调用同一个类下重载的构造器方法，必须写在第一行");
         setAge(a);
         System.out.println("Person的带姓名年龄参数的构造函数");
     }
@@ -36,14 +35,6 @@ class Person {
 
     public void setAge(int age) {
         this.age = age;
-    }
-}
-
-class Book {
-    public void getPName() {
-        Person person = new Person("songyao", 23);
-//		一个类的私有变量别的类只能通过该暴露出来的方法来访问而不能直接访问
-        System.out.println(person.getName());
     }
 }
 
@@ -96,8 +87,6 @@ public class ExtendTest {
         Student songyao = new Student("宋垚", 23, 170.0);
         songyao.say();
         songyao.sayY();
-//		Book book = new Book();
-//		book.getPName();
         songyao.getPname();
     }
 
