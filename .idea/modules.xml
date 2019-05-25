@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Trek.iml" filepath="$PROJECT_DIR$/Trek.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebDemo/WebDemo.iml" filepath="$PROJECT_DIR$/WebDemo/WebDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/emonda_sl6/emonda_sl6.iml" filepath="$PROJECT_DIR$/emonda_sl6/emonda_sl6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mavendemo/mavendemo.iml" filepath="$PROJECT_DIR$/mavendemo/mavendemo.iml" />
     </modules>
   </component>
 </project>

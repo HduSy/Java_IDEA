@@ -1,4 +1,4 @@
-package edu.usst.trek.stu;
+package test;
 
 /**
  * Created by Usst_Yao.
