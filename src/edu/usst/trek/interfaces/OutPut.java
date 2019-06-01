@@ -1,4 +1,4 @@
-package edu.usst.trek.src;
+package edu.usst.trek.interfaces;
 
 public interface OutPut {
     int MAX_CACHE_LINE = 30;
@@ -6,7 +6,7 @@ public interface OutPut {
     //	普通方法其实被public abstract修饰
     void out();
 
-    void getData();
+    void getData(String msg);
 
     //	默认方法
     default void print(String... msgs) {

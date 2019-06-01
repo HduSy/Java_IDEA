@@ -1,6 +1,6 @@
 package edu.usst.trek.main;
 
-import test.Stu;
+import edu.usst.trek.src.Stu;
 
 import java.util.ArrayList;
 

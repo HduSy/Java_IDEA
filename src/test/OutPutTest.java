@@ -1,7 +1,7 @@
 package test;
 
 
-import edu.usst.trek.src.OutPut;
+import edu.usst.trek.interfaces.OutPut;
 
 public class OutPutTest {
     public static void main(String[] args) {
